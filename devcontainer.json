@@ -1,0 +1,14 @@
+{
+    "name": "Kali Codespace",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "postCreateCommand": "apt update && apt install -y kali-linux-default",
+    "extensions": [
+      "ms-vscode.cpptools",
+      "ms-python.python"
+    ]
+  }
